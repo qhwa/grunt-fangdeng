@@ -21,7 +21,7 @@
     }
   ],
   "main": "grunt.js",
-  "bin": "bin/grunt-fangdeng",
+  "bin": "bin/fangdeng",
   "engines": {
     "node": "*"
   },

@@ -1,0 +1,37 @@
+{
+  "name": "grunt-fangdeng",
+  "description": "Templates and scaffolds for web developers of Alibaba.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/qhwa/grunt-fangdeng",
+  "author": {
+    "name": "qhwa",
+    "email": "qhwa@163.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/qhwa/grunt-fangdeng.git"
+  },
+  "bugs": {
+    "url": "https://github.com/qhwa/grunt-fangdeng/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/qhwa/grunt-fangdeng/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "grunt.js",
+  "bin": "bin/grunt-fangdeng",
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.16"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}

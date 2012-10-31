@@ -1,0 +1,8 @@
+/**
+ * @author {%= author_name %}
+ * @date {%= grunt.template.today('yyyy-mm-dd') %}
+ * !!cmd:compress=true
+*/
+@import url("http://style.china.alibaba.com/fdevlib/css/fdev-v4/core/fdev-float.css");
+@import url("http://style.china.alibaba.com/sys/css/universal/alibar/standard-v4.css");
+@import url("{%= name %}.css");

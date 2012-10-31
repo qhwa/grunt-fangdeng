@@ -3,7 +3,9 @@
 Templates and scaffolds for web developers of Alibaba.
 
 ## Getting Started
-Install this grunt plugin next to your project's [grunt.js gruntfile][getting_started] with: `npm install grunt-fangdeng`
+Install this grunt plugin next to your project's [grunt.js gruntfile][getting_started] with: 
+
+    npm install git://github.com/qhwa/grunt-fangdeng.git
 
 Then add this line to your project's `grunt.js` gruntfile:
 

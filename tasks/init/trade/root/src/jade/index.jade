@@ -1,0 +1,32 @@
+doctype html
+html( lang="zh-CN" )
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='pragma',content='no-cache')
+    meta(http-equiv='expires',content='-1')
+    meta(name='description',content='阿里巴巴（china.alibaba.com）是全球企业间（B2B）电子商务的著名品牌，是全球国际贸易领域内最大、最活跃的网上交易市场和商人社区，全球首家拥有超过800万网商的电子商务网站，遍布220个国家和地区，成为全球商人销售产品、拓展市场及网络推广的首选网站。')
+    meta(name='keywords',content='b2b，网上贸易，网上交易，交易市场，在线交易，买卖信息，贸易机会，商业信息，供求信息，采购，求购信息，供应信息，加工合作，代理，商机，行业资讯，商务服务，商务网，商人社区，网商')
+    title 我的进货单 - 阿里巴巴1688.com, 全球最大的采购平台、批发市场和商人社区
+    link(rel='shortcut icon',type='image/x-icon',href='http://i02.c.aliimg.com/favicon.ico')
+
+    // global-level stylesheet
+    link(rel='stylesheet',href='http://style.china.alibaba.com/app/trade/css/way/global/forward.css')
+    link(rel='stylesheet',href='http://style.china.alibaba.com/app/trade/css/just/lang/layout.css')
+
+
+    // global-level javascript
+    script(src="http://style.china.alibaba.com/fdevlib/js/fdev-v4/core/fdev-min.js")
+
+    // product level merge
+    //link( rel="stylesheet" href="http://style.china.alibaba.com/app/trade/css/public-merge.css" )
+     
+    // page level merge
+    //link( rel="stylesheet" href="merge.css" )
+
+  body
+
+    // page-name 由产品线名和页面名构成，如进货单：way-cart
+    div#doc( class="page-{%= name %}" )
+      include alibar
+      include {%= name %}
+      include alifooter

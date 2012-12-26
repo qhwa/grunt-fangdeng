@@ -29,7 +29,7 @@ exports.template = function(grunt, init, done) {
   ], function(err, props) {
 
     var files = init.filesToCopy(props);
-    init.copyAndProcess( files, props, { noPrecess: 'libs/**', encoding: 'gbk' } );
+    init.copyAndProcess( files, props, { noPrecess: 'libs/**', encoding: 'utf-8' } );
 
     // All done!
     done();

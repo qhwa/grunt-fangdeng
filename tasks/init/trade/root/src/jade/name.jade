@@ -1,0 +1,25 @@
+div#header header
+
+// 若layout之间存在默认8px间距，则给#content加.layout-space
+#content.w952
+
+  .layout
+    .grid-24
+      .mod.mod-example
+        .header
+          h1 {%= name %}
+        .content"
+          {%= description %}
+
+  .layout
+    .grid-6
+      .mod.mod-example
+        .content example
+
+      .grid-18.grid-fixed
+        .mod.mod-example
+          .header example
+          .content example
+
+
+script( src="merge.js" )

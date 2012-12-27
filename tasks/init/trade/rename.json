@@ -1,7 +1,6 @@
 {
-  "src/name.js"       : "src/{%= name %}.js",
-  "src/name.css"      : "src/{%= name %}.css",
-  "src/name.html"     : "src/{%= name %}.html",
+  "src/js/name.js"    : "src/js/{%= name %}.js",
+  "src/css/name.css"  : "src/css/{%= name %}.css",
   "src/jade/name.jade": "src/jade/{%= name %}.jade",
   "test/name_test.js" : "test/{%= name %}_test.js",
   "test/name.html"    : "test/{%= name %}.html"

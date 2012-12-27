@@ -13,4 +13,4 @@
 })();
 /*merge end*/
 ImportJavscript.url('http://style.china.alibaba.com/fdevlib/js/fdev-v4/core/fdev-min.js');
-ImportJavscript.url('{%= name.js %}');
+ImportJavscript.url('../js/{%= name %}.js');

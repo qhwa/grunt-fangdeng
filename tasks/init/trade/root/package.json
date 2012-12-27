@@ -10,7 +10,7 @@
   "devDependencies": {
     "grunt": "> 0",
     "grunt-contrib-less": "> 0",
-    "grunt-contrib-jade": "> 0",
+    "grunt-jade": "> 0",
     "grunt-reload": "git://github.com/webxl/grunt-reload.git"
   }
 }
